@@ -9,7 +9,7 @@ import { Error } from "./Error"
     3) En mi programa, antes del return uso el useContext indicandole el provider para acceder a mis variables, en este caso variable hola.
     const { hola }=useContext(CotizadorContext)  */ 
 const Formulario = () => {
-    const{ datos, handleChangeDatos, error, setError } = useCotizador()
+            const{ datos, handleChangeDatos, error, setError, cotizarSeguro  } = useCotizador()
     
     const handleSubmit = e => {
         e.preventDefault()
@@ -18,6 +18,7 @@ const Formulario = () => {
             return
         }
         setError('')
+        cotizarSeguro()
     }
       
 return (
