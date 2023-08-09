@@ -2,12 +2,15 @@
   "name": "cotizador",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://github.com/Abel9013/react-cotizadorSeguros",
+
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d build"
   },
   "dependencies": {
     "autoprefixer": "^10.4.14",
