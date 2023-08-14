@@ -1,8 +1,25 @@
-# React + Vite
+# Online insurance quoter 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is an online insurance quoter which depends on the brand, year, and plan gives a price. It´s idealized but it would be very usefull to have a reference in a company in this area.
 
-Currently, two official plugins are available:
+## Functionalities 
+It has context for keep variables globally
+The styles are made with tailwindcss.
+The useMemo and useRef hooks were used to fix the problem of rendering, which gave a bad user expericence
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+# Cotizador de Seguros con React + Vite
+
+## Descripción
+
+Este es un cotizador de seguros que, basado en la marca, modelo de auto y tipo de plan, proporciona el precio del seguro. Aunque es un ejemplo idealizado, puede ser útil para tener una referencia en una compañía del rubro.
+
+## Funcionalidades
+
+- Utiliza el contexto para mantener variables de forma global.
+- Los estilos están desarrollados con Tailwind CSS.
+- Se emplearon los hooks useMemo y useRef para solucionar el problema de renderización...
+
+
